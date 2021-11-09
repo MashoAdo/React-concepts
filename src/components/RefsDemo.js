@@ -23,7 +23,7 @@ class RefsDemo extends Component {
         return (
             <div>
                 <input type="text" ref={this.inputRef} placeholder="user name" />
-                <button onClick={this.handleClick} > click </button>
+                <button onClick={this.handleClick}> click </button>
             </div>
         )
     }
